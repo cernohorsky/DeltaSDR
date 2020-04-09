@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:DeltaSDR-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DeltaSDR-rescue:Si570-Oscillator U2
+L DeltaSDR-rescue:Si570-Oscillator-DeltaSDR-rescue U2
 U 1 1 5E8B430C
 P 2000 2725
 F 0 "U2" H 2000 3306 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/si570.pdf" H 1600 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:CY8C3246PVI-147-cy8c3246pvi-147 U5
+L DeltaSDR-rescue:CY8C3246PVI-147-cy8c3246pvi-147-DeltaSDR-rescue U5
 U 1 1 5E8B959A
 P 8100 4000
 F 0 "U5" H 8075 5375 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 8050 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:PCM3060-riske-symbols U4
+L DeltaSDR-rescue:PCM3060-riske-symbols-DeltaSDR-rescue U4
 U 1 1 5E8BE1D1
 P 3400 4450
 F 0 "U4" H 3375 5325 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 3800 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C5
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C5
 U 1 1 5E8BF4A8
 P 9500 3050
 F 0 "C5" H 9615 3096 50  0000 L CNN
@@ -93,7 +94,7 @@ F 3 "" H 9500 2850 50  0001 C CNN
 $EndComp
 Connection ~ 9500 2850
 $Comp
-L DeltaSDR-rescue:C-Device C2
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C2
 U 1 1 5E8C2E1C
 P 9100 3150
 F 0 "C2" H 9215 3196 50  0000 L CNN
@@ -119,7 +120,7 @@ $EndComp
 Wire Wire Line
 	9100 3300 9100 3350
 $Comp
-L DeltaSDR-rescue:C-Device C6
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C6
 U 1 1 5E8C4103
 P 9700 3750
 F 0 "C6" H 9815 3796 50  0000 L CNN
@@ -180,7 +181,7 @@ XTALi
 Text GLabel 8600 3750 2    50   Input ~ 0
 XTALo
 $Comp
-L DeltaSDR-rescue:C-Device C4
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C4
 U 1 1 5E8C8B8E
 P 9400 4050
 F 0 "C4" H 9515 4096 50  0000 L CNN
@@ -229,7 +230,7 @@ Wire Wire Line
 Text GLabel 9250 3850 3    50   Input ~ 0
 Vccd
 $Comp
-L DeltaSDR-rescue:C-Device C1
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C1
 U 1 1 5E8D021E
 P 9000 4250
 F 0 "C1" H 9115 4296 50  0000 L CNN
@@ -279,7 +280,7 @@ RX
 Text GLabel 8600 4650 2    50   Input ~ 0
 BOOT
 $Comp
-L DeltaSDR-rescue:C-Device C3
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C3
 U 1 1 5E8D2DEC
 P 9200 4750
 F 0 "C3" H 9315 4796 50  0000 L CNN
@@ -347,7 +348,7 @@ Wire Wire Line
 Text GLabel 7550 4750 0    50   Input ~ 0
 AMP
 $Comp
-L DeltaSDR-rescue:LED-Device D1
+L DeltaSDR-rescue:LED-Device-DeltaSDR-rescue D1
 U 1 1 5E8D990B
 P 7150 4550
 F 0 "D1" H 7143 4295 50  0000 C CNN
@@ -358,7 +359,7 @@ F 3 "~" H 7150 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DeltaSDR-rescue:R-Device R3
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R3
 U 1 1 5E8DA7CD
 P 6700 4550
 F 0 "R3" V 6493 4550 50  0000 C CNN
@@ -393,7 +394,7 @@ Connection ~ 7450 4550
 Wire Wire Line
 	7450 4550 7550 4550
 $Comp
-L DeltaSDR-rescue:C-Device C14
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C14
 U 1 1 5E8DDA4D
 P 6850 4100
 F 0 "C14" H 6965 4146 50  0000 L CNN
@@ -439,7 +440,7 @@ Connection ~ 6850 3900
 Wire Wire Line
 	7300 4550 7450 4550
 $Comp
-L DeltaSDR-rescue:C-Device C11
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C11
 U 1 1 5E8E3DCC
 P 6550 3850
 F 0 "C11" H 6665 3896 50  0000 L CNN
@@ -516,7 +517,7 @@ DOUT
 Text GLabel 7550 3550 0    50   Input ~ 0
 LRCK1
 $Comp
-L DeltaSDR-rescue:C-Device C13
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C13
 U 1 1 5E8F24C0
 P 6850 3200
 F 0 "C13" H 6965 3246 50  0000 L CNN
@@ -572,7 +573,7 @@ SCK1
 Text GLabel 7550 2850 0    50   Input ~ 0
 BCK1
 $Comp
-L DeltaSDR-rescue:C-Device C9
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C9
 U 1 1 5E8FBE37
 P 4650 4400
 F 0 "C9" H 4765 4446 50  0000 L CNN
@@ -701,7 +702,7 @@ SDA
 Text GLabel 2650 3800 0    50   Input ~ 0
 SCL
 $Comp
-L DeltaSDR-rescue:C-Device C8
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C8
 U 1 1 5E915664
 P 2050 4600
 F 0 "C8" H 2165 4646 50  0000 L CNN
@@ -748,7 +749,7 @@ F 3 "" H 2050 4400 50  0001 C CNN
 $EndComp
 Connection ~ 2050 4400
 $Comp
-L DeltaSDR-rescue:R-Device R1
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R1
 U 1 1 5E93592F
 P 4450 7100
 F 0 "R1" H 4380 7054 50  0000 R CNN
@@ -759,7 +760,7 @@ F 3 "~" H 4450 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DeltaSDR-rescue:R-Device R2
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R2
 U 1 1 5E935C48
 P 4800 7100
 F 0 "R2" H 4730 7054 50  0000 R CNN
@@ -849,7 +850,7 @@ Wire Wire Line
 Text Notes 4350 5850 0    50   ~ 0
 BOOT jumper \n1-2 enables USB bootloader.\n2-3 for normal operation
 $Comp
-L DeltaSDR-rescue:Crystal-Device Y1
+L DeltaSDR-rescue:Crystal-Device-DeltaSDR-rescue Y1
 U 1 1 5E94EC07
 P 6550 5200
 F 0 "Y1" H 6550 5468 50  0000 C CNN
@@ -860,7 +861,7 @@ F 3 "~" H 6550 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C10
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C10
 U 1 1 5E94F97D
 P 6300 5400
 F 0 "C10" H 6415 5446 50  0000 L CNN
@@ -871,7 +872,7 @@ F 3 "~" H 6300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C12
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C12
 U 1 1 5E950325
 P 6800 5400
 F 0 "C12" H 6915 5446 50  0000 L CNN
@@ -999,7 +1000,7 @@ Wire Wire Line
 	1500 2625 1500 2275
 NoConn ~ 2500 2825
 $Comp
-L DeltaSDR-rescue:C-Device C7
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C7
 U 1 1 5E981D93
 P 1150 2425
 F 0 "C7" H 1265 2471 50  0000 L CNN
@@ -1052,7 +1053,7 @@ F0 "TX" 50
 F1 "tx.sch" 50
 $EndSheet
 $Comp
-L regul:TC1262-33 U1
+L DeltaSDR-rescue:TC1262-33-regul U1
 U 1 1 5E8E4808
 P 6675 950
 F 0 "U1" H 6675 1192 50  0000 C CNN
@@ -1063,7 +1064,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6675 650 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C22
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C22
 U 1 1 5E8E4DAA
 P 7025 1150
 F 0 "C22" H 7140 1196 50  0000 L CNN
@@ -1104,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	7025 950  7025 1000
 $Comp
-L DeltaSDR-rescue:C-Device C21
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C21
 U 1 1 5E8F2026
 P 6225 1150
 F 0 "C21" H 6340 1196 50  0000 L CNN
@@ -1132,7 +1133,7 @@ Wire Wire Line
 Wire Wire Line
 	6225 1300 6225 1350
 $Comp
-L mdSupply:+5V #PWR0143
+L DeltaSDR-rescue:+5V-mdSupply #PWR0143
 U 1 1 5E8FB0F8
 P 6225 775
 F 0 "#PWR0143" H 6225 775 50  0001 C BNN
@@ -1160,7 +1161,7 @@ Wire Wire Line
 	7025 875  7025 950 
 Connection ~ 7025 950 
 $Comp
-L Connector:Barrel_Jack J3
+L DeltaSDR-rescue:Barrel_Jack-Connector J3
 U 1 1 5E905C03
 P 1075 1050
 F 0 "J3" H 1154 1375 50  0000 C CNN
@@ -1171,7 +1172,7 @@ F 3 "~" H 1125 1010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D2
+L DeltaSDR-rescue:D-device D2
 U 1 1 5E907521
 P 1650 950
 F 0 "D2" H 1650 734 50  0000 C CNN
@@ -1202,7 +1203,7 @@ Connection ~ 1425 1150
 Wire Wire Line
 	1375 950  1500 950 
 $Comp
-L DeltaSDR-rescue:C-Device C16
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C16
 U 1 1 5E915B7F
 P 1825 1150
 F 0 "C16" H 1940 1196 50  0000 L CNN
@@ -1232,7 +1233,7 @@ Wire Wire Line
 Wire Wire Line
 	1425 1150 1425 1325
 $Comp
-L device:L L1
+L DeltaSDR-rescue:L-device L1
 U 1 1 5E92544F
 P 2050 950
 F 0 "L1" V 2240 950 50  0000 C CNN
@@ -1243,7 +1244,7 @@ F 3 "" H 2050 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C15
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C15
 U 1 1 5E925F10
 P 2275 1125
 F 0 "C15" H 2390 1171 50  0000 L CNN
@@ -1274,7 +1275,7 @@ $EndComp
 Wire Wire Line
 	2275 1275 2275 1325
 $Comp
-L Logic_74xx:74HC74 U8
+L DeltaSDR-rescue:74HC74-Logic_74xx U8
 U 1 1 5E9675F6
 P 3150 2725
 F 0 "U8" H 3000 2975 50  0000 C CNN
@@ -1285,7 +1286,7 @@ F 3 "74xx/74hc_hct74.pdf" H 3150 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC74 U8
+L DeltaSDR-rescue:74HC74-Logic_74xx U8
 U 2 1 5E9682AE
 P 4025 2725
 F 0 "U8" H 3875 2975 50  0000 C CNN
@@ -1296,7 +1297,7 @@ F 3 "74xx/74hc_hct74.pdf" H 4025 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC74 U8
+L DeltaSDR-rescue:74HC74-Logic_74xx U8
 U 3 1 5E9696A3
 P 5025 2625
 F 0 "U8" H 4800 2975 50  0000 L CNN
@@ -1307,7 +1308,7 @@ F 3 "74xx/74hc_hct74.pdf" H 5025 2625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C24
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C24
 U 1 1 5E96B520
 P 5375 2625
 F 0 "C24" H 5490 2671 50  0000 L CNN
@@ -1342,7 +1343,7 @@ Wire Wire Line
 	5025 3050 5025 3100
 Connection ~ 5025 3050
 $Comp
-L mdSupply:+5V #PWR0152
+L DeltaSDR-rescue:+5V-mdSupply #PWR0152
 U 1 1 5E97E791
 P 5025 2125
 F 0 "#PWR0152" H 5025 2125 50  0001 C BNN
@@ -1433,7 +1434,7 @@ Connection ~ 2700 2725
 Wire Wire Line
 	2700 2725 2850 2725
 $Comp
-L mdSupply:+5V #PWR0153
+L DeltaSDR-rescue:+5V-mdSupply #PWR0153
 U 1 1 5EA064BB
 P 4200 2350
 F 0 "#PWR0153" H 4200 2350 50  0001 C BNN
@@ -1464,7 +1465,7 @@ F 3 "" H 2250 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESD_Protection:PRTR5V0U2X D3
+L DeltaSDR-rescue:PRTR5V0U2X-ESD_Protection D3
 U 1 1 5EA126D7
 P 2925 6075
 F 0 "D3" H 2925 6442 50  0000 C CNN
@@ -1517,7 +1518,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 6775 2400 6775
 $Comp
-L DeltaSDR-rescue:R-Device R8
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R8
 U 1 1 5EA3C1AA
 P 2000 7275
 F 0 "R8" H 2150 7275 50  0000 R CNN
@@ -1541,7 +1542,7 @@ Connection ~ 2050 7450
 Wire Wire Line
 	2050 7450 2000 7450
 $Comp
-L DeltaSDR-rescue:R-Device R6
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R6
 U 1 1 5EA5D9BB
 P 3500 6675
 F 0 "R6" V 3575 6725 50  0000 R CNN
@@ -1552,7 +1553,7 @@ F 3 "~" H 3500 6675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DeltaSDR-rescue:R-Device R7
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R7
 U 1 1 5EA5EDBA
 P 3500 6775
 F 0 "R7" V 3400 6825 50  0000 R CNN
@@ -1577,7 +1578,7 @@ USB+
 Text GLabel 3700 6775 2    50   Input ~ 0
 USB-
 $Comp
-L MLAB_U:LM1117 U6
+L DeltaSDR-rescue:LM1117-MLAB_U U6
 U 1 1 5EA8F70D
 P 3000 1050
 F 0 "U6" H 3000 1503 60  0000 C CNN
@@ -1604,7 +1605,7 @@ Connection ~ 2275 950
 Wire Wire Line
 	3000 1350 3000 1375
 $Comp
-L DeltaSDR-rescue:C-Device C17
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C17
 U 1 1 5EAA8526
 P 3425 1150
 F 0 "C17" H 3540 1196 50  0000 L CNN
@@ -1615,7 +1616,7 @@ F 3 "~" H 3425 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C18
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C18
 U 1 1 5EAA8B35
 P 3800 1150
 F 0 "C18" H 3915 1196 50  0000 L CNN
@@ -1673,7 +1674,7 @@ F 3 "" H 3800 950 50  0001 C CNN
 $EndComp
 Connection ~ 3800 950 
 $Comp
-L MLAB_U:LM1117 U7
+L DeltaSDR-rescue:LM1117-MLAB_U U7
 U 1 1 5EADB5DF
 P 4700 1050
 F 0 "U7" H 4700 1503 60  0000 C CNN
@@ -1697,7 +1698,7 @@ $EndComp
 Wire Wire Line
 	4700 1350 4700 1375
 $Comp
-L DeltaSDR-rescue:C-Device C19
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C19
 U 1 1 5EADB5F5
 P 5125 1150
 F 0 "C19" H 5240 1196 50  0000 L CNN
@@ -1708,7 +1709,7 @@ F 3 "~" H 5125 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DeltaSDR-rescue:C-Device C20
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C20
 U 1 1 5EADB5FF
 P 5500 1150
 F 0 "C20" H 5615 1196 50  0000 L CNN
@@ -1754,7 +1755,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1300 5500 1375
 $Comp
-L DeltaSDR-rescue:C-Device C23
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C23
 U 1 1 5EAED66B
 P 4225 1175
 F 0 "C23" H 4340 1221 50  0000 L CNN
@@ -1792,7 +1793,7 @@ Connection ~ 2550 950
 Wire Wire Line
 	2550 950  2600 950 
 $Comp
-L mdSupply:+5V #PWR0164
+L DeltaSDR-rescue:+5V-mdSupply #PWR0164
 U 1 1 5EB17953
 P 5500 850
 F 0 "#PWR0164" H 5500 850 50  0001 C BNN
@@ -1804,7 +1805,7 @@ F 3 "" H 5500 850 50  0001 C CNN
 $EndComp
 Connection ~ 5500 950 
 $Comp
-L DeltaSDR-rescue:R-Device R5
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R5
 U 1 1 5EB28564
 P 2300 5975
 F 0 "R5" V 2375 6025 50  0000 R CNN
@@ -1815,7 +1816,7 @@ F 3 "~" H 2300 5975 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DeltaSDR-rescue:R-Device R4
+L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R4
 U 1 1 5EB28C53
 P 1950 5975
 F 0 "R4" V 2025 6025 50  0000 R CNN
@@ -1855,7 +1856,7 @@ USBV+
 Wire Wire Line
 	2075 5850 2125 5850
 $Comp
-L mdSupply:+12V #PWR0166
+L DeltaSDR-rescue:+12V-mdSupply #PWR0166
 U 1 1 5EB743BC
 P 2400 850
 F 0 "#PWR0166" H 2400 850 50  0001 C BNN
