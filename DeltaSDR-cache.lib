@@ -344,22 +344,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DeltaSDR-rescue_LM1117-MLAB_U
-#
-DEF DeltaSDR-rescue_LM1117-MLAB_U U 0 40 Y Y 1 F N
-F0 "U" -150 200 60 H V C CNN
-F1 "DeltaSDR-rescue_LM1117-MLAB_U" 200 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 150 200 -100 0 1 0 N
-X GND 1 0 -300 200 U 50 50 1 1 U
-X OUT 2 400 100 200 L 50 50 1 1 U
-X IN 3 -400 100 200 R 50 50 1 1 I
-X OUT 4 400 100 150 L 50 30 1 1 U N
-ENDDRAW
-ENDDEF
-#
 # DeltaSDR-rescue_Opamp_Dual_Generic-Device-DeltaSDR-rescue
 #
 DEF DeltaSDR-rescue_Opamp_Dual_Generic-Device-DeltaSDR-rescue U 0 20 Y Y 3 L N
@@ -576,6 +560,7 @@ S -200 75 200 -200 1 1 10 f
 X VI 1 -300 0 100 R 50 50 1 1 W
 X GND 2 0 -300 100 U 50 50 1 1 W
 X VO 3 300 0 100 L 50 50 1 1 w
+X TAB 4 100 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -661,6 +646,25 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Jumper
+#
+DEF Device_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Device_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+$ENDFPLIST
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_L
 #
 DEF Device_L L 0 40 N N 1 F N
@@ -681,6 +685,22 @@ A 0 25 25 -899 899 0 1 0 N 0 0 0 50
 A 0 75 25 -899 899 0 1 0 N 0 50 0 100
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -1085,7 +1085,7 @@ F 3 "" H 7025 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6675 1250 6675 1350
+	6675 1250 6675 1300
 Wire Wire Line
 	7025 1300 7025 1350
 Wire Wire Line
@@ -1466,12 +1466,12 @@ $EndComp
 $Comp
 L power:GND #PWR0154
 U 1 1 5EA134A4
-P 2050 7475
-F 0 "#PWR0154" H 2050 7225 50  0001 C CNN
-F 1 "GND" H 2055 7302 50  0000 C CNN
-F 2 "" H 2050 7475 50  0001 C CNN
-F 3 "" H 2050 7475 50  0001 C CNN
-	1    2050 7475
+P 2050 7250
+F 0 "#PWR0154" H 2050 7000 50  0001 C CNN
+F 1 "GND" H 2055 7077 50  0000 C CNN
+F 2 "" H 2050 7250 50  0001 C CNN
+F 3 "" H 2050 7250 50  0001 C CNN
+	1    2050 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1505,30 +1505,6 @@ Wire Wire Line
 	3225 6175 3225 6775
 Wire Wire Line
 	3225 6775 2400 6775
-$Comp
-L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R8
-U 1 1 5EA3C1AA
-P 2000 7275
-F 0 "R8" H 2150 7275 50  0000 R CNN
-F 1 "0R" V 2000 7325 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 7275 50  0001 C CNN
-F 3 "~" H 2000 7275 50  0001 C CNN
-	1    2000 7275
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2000 7075 2000 7125
-Wire Wire Line
-	2100 7075 2100 7450
-Wire Wire Line
-	2100 7450 2050 7450
-Wire Wire Line
-	2000 7450 2000 7425
-Wire Wire Line
-	2050 7475 2050 7450
-Connection ~ 2050 7450
-Wire Wire Line
-	2050 7450 2000 7450
 $Comp
 L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R6
 U 1 1 5EA5D9BB
@@ -1566,17 +1542,6 @@ USB+
 Text GLabel 3700 6775 2    50   Input ~ 0
 USB-
 $Comp
-L DeltaSDR-rescue:LM1117-MLAB_U U6
-U 1 1 5EA8F70D
-P 3000 1050
-F 0 "U6" H 3000 1503 60  0000 C CNN
-F 1 "TLV761" H 3000 1397 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3000 1291 60  0000 C CNN
-F 3 "" H 3000 1050 60  0000 C CNN
-	1    3000 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0156
 U 1 1 5EA909BC
 P 3000 1375
@@ -1590,8 +1555,6 @@ $EndComp
 Wire Wire Line
 	2275 950  2400 950 
 Connection ~ 2275 950 
-Wire Wire Line
-	3000 1350 3000 1375
 $Comp
 L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C17
 U 1 1 5EAA8526
@@ -1637,8 +1600,6 @@ F 3 "" H 3800 1375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 950  3425 950 
-Wire Wire Line
 	3425 950  3425 1000
 Wire Wire Line
 	3425 950  3800 950 
@@ -1662,17 +1623,6 @@ F 3 "" H 3800 950 50  0001 C CNN
 $EndComp
 Connection ~ 3800 950 
 $Comp
-L DeltaSDR-rescue:LM1117-MLAB_U U7
-U 1 1 5EADB5DF
-P 4700 1050
-F 0 "U7" H 4700 1503 60  0000 C CNN
-F 1 "TLV761" H 4700 1397 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 4700 1291 60  0000 C CNN
-F 3 "" H 4700 1050 60  0000 C CNN
-	1    4700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0160
 U 1 1 5EADB5E9
 P 4700 1375
@@ -1683,8 +1633,6 @@ F 3 "" H 4700 1375 50  0001 C CNN
 	1    4700 1375
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 1350 4700 1375
 $Comp
 L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C19
 U 1 1 5EADB5F5
@@ -1730,8 +1678,6 @@ F 3 "" H 5500 1375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 950  5125 950 
-Wire Wire Line
 	5125 950  5125 1000
 Wire Wire Line
 	5125 950  5500 950 
@@ -1767,8 +1713,6 @@ $EndComp
 Wire Wire Line
 	4225 950  4225 1025
 Wire Wire Line
-	4225 950  4300 950 
-Wire Wire Line
 	4225 1325 4225 1375
 Wire Wire Line
 	4225 950  4225 650 
@@ -1778,8 +1722,6 @@ Wire Wire Line
 	2550 650  2550 950 
 Connection ~ 4225 950 
 Connection ~ 2550 950 
-Wire Wire Line
-	2550 950  2600 950 
 $Comp
 L DeltaSDR-rescue:+5V-mdSupply #PWR0164
 U 1 1 5EB17953
@@ -1892,4 +1834,193 @@ Wire Wire Line
 Connection ~ 6300 5600
 Text GLabel 8600 4750 2    50   Input ~ 0
 B6040M
+$Comp
+L Device:Jumper JP1
+U 1 1 5EA337DB
+P 1700 7150
+F 0 "JP1" H 1700 7414 50  0000 C CNN
+F 1 "Jumper" H 1700 7323 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1700 7150 50  0001 C CNN
+F 3 "~" H 1700 7150 50  0001 C CNN
+	1    1700 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7075 2100 7200
+Wire Wire Line
+	2100 7200 2050 7200
+Wire Wire Line
+	2050 7200 2050 7250
+Wire Wire Line
+	2000 7075 2000 7150
+Wire Wire Line
+	1400 7150 1375 7150
+Wire Wire Line
+	1375 7150 1375 7200
+Wire Wire Line
+	1375 7200 2050 7200
+Connection ~ 2050 7200
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5EAFAA06
+P 10875 6050
+AR Path="/5E9BB9DC/5EAFAA06" Ref="H?"  Part="1" 
+AR Path="/5EAFAA06" Ref="H4"  Part="1" 
+F 0 "H4" H 10975 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10975 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10875 6050 50  0001 C CNN
+F 3 "~" H 10875 6050 50  0001 C CNN
+	1    10875 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0222
+U 1 1 5EAFAA0C
+P 10875 6150
+AR Path="/5EAFAA0C" Ref="#PWR0222"  Part="1" 
+AR Path="/5E9BB9DC/5EAFAA0C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0222" H 10875 5900 50  0001 C CNN
+F 1 "GND" H 10880 5977 50  0000 C CNN
+F 2 "" H 10875 6150 50  0001 C CNN
+F 3 "" H 10875 6150 50  0001 C CNN
+	1    10875 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5EAFAA12
+P 10525 6050
+AR Path="/5E9BB9DC/5EAFAA12" Ref="H?"  Part="1" 
+AR Path="/5EAFAA12" Ref="H3"  Part="1" 
+F 0 "H3" H 10625 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10625 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10525 6050 50  0001 C CNN
+F 3 "~" H 10525 6050 50  0001 C CNN
+	1    10525 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0223
+U 1 1 5EAFAA18
+P 10525 6150
+AR Path="/5EAFAA18" Ref="#PWR0223"  Part="1" 
+AR Path="/5E9BB9DC/5EAFAA18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0223" H 10525 5900 50  0001 C CNN
+F 1 "GND" H 10530 5977 50  0000 C CNN
+F 2 "" H 10525 6150 50  0001 C CNN
+F 3 "" H 10525 6150 50  0001 C CNN
+	1    10525 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5EAFAA1E
+P 10250 6050
+AR Path="/5E9BB9DC/5EAFAA1E" Ref="H?"  Part="1" 
+AR Path="/5EAFAA1E" Ref="H2"  Part="1" 
+F 0 "H2" H 10350 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10350 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10250 6050 50  0001 C CNN
+F 3 "~" H 10250 6050 50  0001 C CNN
+	1    10250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0224
+U 1 1 5EAFAA24
+P 10250 6150
+AR Path="/5EAFAA24" Ref="#PWR0224"  Part="1" 
+AR Path="/5E9BB9DC/5EAFAA24" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0224" H 10250 5900 50  0001 C CNN
+F 1 "GND" H 10255 5977 50  0000 C CNN
+F 2 "" H 10250 6150 50  0001 C CNN
+F 3 "" H 10250 6150 50  0001 C CNN
+	1    10250 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5EAFAA2A
+P 9950 6050
+AR Path="/5E9BB9DC/5EAFAA2A" Ref="H?"  Part="1" 
+AR Path="/5EAFAA2A" Ref="H1"  Part="1" 
+F 0 "H1" H 10050 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10050 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9950 6050 50  0001 C CNN
+F 3 "~" H 9950 6050 50  0001 C CNN
+	1    9950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0225
+U 1 1 5EAFAA30
+P 9950 6150
+AR Path="/5EAFAA30" Ref="#PWR0225"  Part="1" 
+AR Path="/5E9BB9DC/5EAFAA30" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0225" H 9950 5900 50  0001 C CNN
+F 1 "GND" H 9955 5977 50  0000 C CNN
+F 2 "" H 9950 6150 50  0001 C CNN
+F 3 "" H 9950 6150 50  0001 C CNN
+	1    9950 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 1250 6775 1300
+Wire Wire Line
+	6775 1300 6675 1300
+Connection ~ 6675 1300
+Wire Wire Line
+	6675 1300 6675 1350
+$Comp
+L DeltaSDR-rescue:TC1262-33-regul U6
+U 1 1 5EB7A567
+P 2950 950
+F 0 "U6" H 2950 1192 50  0000 C CNN
+F 1 "TC1262-5" H 2950 1101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2950 1175 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 2950 650 50  0001 C CNN
+	1    2950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DeltaSDR-rescue:TC1262-33-regul U7
+U 1 1 5EB7AFAE
+P 4650 950
+F 0 "U7" H 4650 1192 50  0000 C CNN
+F 1 "TC1262-5" H 4650 1101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 4650 1175 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 4650 650 50  0001 C CNN
+	1    4650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 950  5125 950 
+Wire Wire Line
+	4225 950  4350 950 
+Wire Wire Line
+	4650 1250 4650 1300
+Wire Wire Line
+	4650 1300 4700 1300
+Wire Wire Line
+	4750 1300 4750 1250
+Wire Wire Line
+	4700 1300 4700 1375
+Connection ~ 4700 1300
+Wire Wire Line
+	4700 1300 4750 1300
+Wire Wire Line
+	2550 950  2650 950 
+Wire Wire Line
+	3250 950  3425 950 
+Wire Wire Line
+	2950 1250 2950 1300
+Wire Wire Line
+	2950 1300 3000 1300
+Wire Wire Line
+	3050 1300 3050 1250
+Wire Wire Line
+	3000 1300 3000 1375
+Connection ~ 3000 1300
+Wire Wire Line
+	3000 1300 3050 1300
 $EndSCHEMATC
