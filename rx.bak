@@ -2105,7 +2105,7 @@ F 3 "~" H 4050 3350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 3900 3350 0    50   Input ~ 0
-TX_OUT
+TXOUT
 $Comp
 L Device:L L?
 U 1 1 5ECC78EC

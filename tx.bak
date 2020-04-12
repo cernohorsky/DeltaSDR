@@ -868,7 +868,7 @@ Connection ~ 4550 4050
 Wire Wire Line
 	4550 4050 4550 4100
 Text GLabel 4600 4050 2    50   Input ~ 0
-RX
+HI_RX
 $Comp
 L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R?
 U 1 1 5EB0F0B3
