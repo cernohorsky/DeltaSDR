@@ -167,7 +167,7 @@ Wire Wire Line
 	3850 1900 3850 2100
 Connection ~ 3850 2100
 Wire Wire Line
-	4250 1450 3850 1450
+	4250 1450 4050 1450
 Wire Wire Line
 	3850 1450 3850 1600
 Wire Wire Line
@@ -1135,4 +1135,20 @@ Wire Wire Line
 Wire Wire Line
 	3350 3800 3350 5700
 Connection ~ 3500 3800
+$Comp
+L power:+5V #PWR?
+U 1 1 5EAA104E
+P 4050 1450
+AR Path="/5E9BB9DC/5EAA104E" Ref="#PWR?"  Part="1" 
+AR Path="/5EAFBA6A/5EAA104E" Ref="#PWR0229"  Part="1" 
+F 0 "#PWR0229" H 4050 1300 50  0001 C CNN
+F 1 "+5V" H 4065 1623 50  0000 C CNN
+F 2 "" H 4050 1450 50  0001 C CNN
+F 3 "" H 4050 1450 50  0001 C CNN
+	1    4050 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 1450
+Wire Wire Line
+	4050 1450 3850 1450
 $EndSCHEMATC

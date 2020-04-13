@@ -71,7 +71,7 @@ Wire Wire Line
 	6450 5900 6450 6100
 Connection ~ 6450 6100
 Wire Wire Line
-	6050 5450 6450 5450
+	6050 5450 6250 5450
 Wire Wire Line
 	6450 5450 6450 5600
 Wire Wire Line
@@ -2217,8 +2217,6 @@ Wire Wire Line
 Text GLabel 5350 1700 2    50   Input ~ 0
 HI_RX
 Connection ~ 4400 1450
-Text GLabel 3900 1450 0    50   Input ~ 0
-RF_BIT
 $Comp
 L DeltaSDR-rescue:R-Device-DeltaSDR-rescue R?
 U 1 1 5ECE32CC
@@ -2371,4 +2369,19 @@ Wire Wire Line
 	9700 3900 9700 3000
 Wire Wire Line
 	9350 3000 9700 3000
+$Comp
+L power:+5V #PWR0228
+U 1 1 5EA9AC2A
+P 6250 5450
+F 0 "#PWR0228" H 6250 5300 50  0001 C CNN
+F 1 "+5V" H 6265 5623 50  0000 C CNN
+F 2 "" H 6250 5450 50  0001 C CNN
+F 3 "" H 6250 5450 50  0001 C CNN
+	1    6250 5450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6250 5450
+Wire Wire Line
+	6250 5450 6450 5450
+NoConn ~ 3900 1450
 $EndSCHEMATC
