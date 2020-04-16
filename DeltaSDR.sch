@@ -588,20 +588,8 @@ F 3 "" H 4650 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 4550 4650 4600
-$Comp
-L power:+5VD #PWR0123
-U 1 1 5E8FBE4D
-P 4650 4200
-F 0 "#PWR0123" H 4650 4050 50  0001 C CNN
-F 1 "+5VD" H 4665 4373 50  0000 C CNN
-F 2 "" H 4650 4200 50  0001 C CNN
-F 3 "" H 4650 4200 50  0001 C CNN
-	1    4650 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 4200 4650 4200
-Connection ~ 4650 4200
 Wire Wire Line
 	4100 4300 4150 4300
 Wire Wire Line
@@ -2147,4 +2135,58 @@ F 3 "" H 7775 5950 50  0001 C CNN
 	1    7775 5950
 	1    0    0    -1  
 $EndComp
+$Comp
+L DeltaSDR-rescue:+5V-mdSupply #PWR0123
+U 1 1 5E985F11
+P 4650 4100
+F 0 "#PWR0123" H 4650 4100 50  0001 C BNN
+F 1 "+5V" H 4650 4175 50  0000 C CNN
+F 2 "" H 4650 4100 50  0001 C CNN
+F 3 "" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 4200
+$Comp
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C73
+U 1 1 5E9BAD69
+P 1700 4600
+F 0 "C73" H 1815 4646 50  0000 L CNN
+F 1 "10u" H 1815 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 4450 50  0001 C CNN
+F 3 "~" H 1700 4600 50  0001 C CNN
+	1    1700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C74
+U 1 1 5E9BB43C
+P 5025 4375
+F 0 "C74" H 5140 4421 50  0000 L CNN
+F 1 "10u" H 5140 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5063 4225 50  0001 C CNN
+F 3 "~" H 5025 4375 50  0001 C CNN
+	1    5025 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4200 5025 4200
+Wire Wire Line
+	5025 4200 5025 4225
+Wire Wire Line
+	4650 4600 5025 4600
+Wire Wire Line
+	5025 4600 5025 4525
+Wire Wire Line
+	2050 4400 1700 4400
+Wire Wire Line
+	1700 4400 1700 4450
+Wire Wire Line
+	2050 4800 1700 4800
+Wire Wire Line
+	1700 4800 1700 4750
+Text Label 3000 6675 0    50   ~ 0
+D+
+Text Label 3000 6775 0    50   ~ 0
+D-
 $EndSCHEMATC
