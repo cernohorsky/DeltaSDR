@@ -22,7 +22,7 @@ AR Path="/5EAFBA6A/5EB0EF19" Ref="U11"  Part="1"
 AR Path="/5EB0EF19" Ref="U?"  Part="1" 
 F 0 "U11" H 4975 4200 50  0000 C CNN
 F 1 "SN74CBT3253" H 4425 3050 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 4725 3650 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4725 3650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74cbt3253" H 4725 3650 50  0001 C CNN
 	1    4725 3650
 	-1   0    0    -1  
