@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:DeltaSDR-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1778,7 +1777,7 @@ Connection ~ 2400 950
 Wire Wire Line
 	2400 950  2550 950 
 $Comp
-L Device:Crystal_GND24 Y1
+L DeltaSDR-rescue:Crystal_GND24-Device Y1
 U 1 1 5E9781A4
 P 6550 5200
 F 0 "Y1" H 6350 5350 50  0000 L CNN
@@ -1813,7 +1812,7 @@ Connection ~ 6300 5600
 Text GLabel 8600 4750 2    50   Input ~ 0
 B6040M
 $Comp
-L Device:Jumper JP1
+L DeltaSDR-rescue:Jumper-Device JP1
 U 1 1 5EA337DB
 P 1700 7150
 F 0 "JP1" H 1700 7414 50  0000 C CNN
@@ -1839,7 +1838,7 @@ Wire Wire Line
 	1375 7200 2050 7200
 Connection ~ 2050 7200
 $Comp
-L Mechanical:MountingHole_Pad H?
+L DeltaSDR-rescue:MountingHole_Pad-Mechanical H?
 U 1 1 5EAFAA06
 P 10875 6050
 AR Path="/5E9BB9DC/5EAFAA06" Ref="H?"  Part="1" 
@@ -1865,7 +1864,7 @@ F 3 "" H 10875 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L DeltaSDR-rescue:MountingHole_Pad-Mechanical H?
 U 1 1 5EAFAA12
 P 10525 6050
 AR Path="/5E9BB9DC/5EAFAA12" Ref="H?"  Part="1" 
@@ -1891,7 +1890,7 @@ F 3 "" H 10525 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L DeltaSDR-rescue:MountingHole_Pad-Mechanical H?
 U 1 1 5EAFAA1E
 P 10250 6050
 AR Path="/5E9BB9DC/5EAFAA1E" Ref="H?"  Part="1" 
@@ -1917,7 +1916,7 @@ F 3 "" H 10250 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L DeltaSDR-rescue:MountingHole_Pad-Mechanical H?
 U 1 1 5EAFAA2A
 P 9950 6050
 AR Path="/5E9BB9DC/5EAFAA2A" Ref="H?"  Part="1" 
@@ -2002,7 +2001,7 @@ Connection ~ 3000 1300
 Wire Wire Line
 	3000 1300 3050 1300
 $Comp
-L Transistor_BJT:MMBT3904 Q7
+L DeltaSDR-rescue:MMBT3904-Transistor_BJT Q7
 U 1 1 5E95637E
 P 7950 1825
 F 0 "Q7" H 8141 1871 50  0000 L CNN

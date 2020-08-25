@@ -9,8 +9,6 @@ HF Software Defined Radio Transceiver that includes ADC and DAC circuits. No sou
 
 
 ToDo:
-- USB powered only
-- Q6 wrong wiring
 - Check the pin diodes current
 - 5W?
 
