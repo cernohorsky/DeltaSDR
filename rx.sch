@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:DeltaSDR-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -439,7 +440,7 @@ AR Path="/5EB519E4" Ref="C?"  Part="1"
 AR Path="/5E9BB9DC/5EB519E4" Ref="C25"  Part="1" 
 F 0 "C25" V 4500 5250 50  0000 C CNN
 F 1 "10n" V 4800 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4688 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 5100 50  0001 C CNN
 F 3 "~" H 4650 5250 50  0001 C CNN
 	1    4650 5250
 	-1   0    0    1   
@@ -452,7 +453,7 @@ AR Path="/5EB51FF5" Ref="C?"  Part="1"
 AR Path="/5E9BB9DC/5EB51FF5" Ref="C26"  Part="1" 
 F 0 "C26" V 4500 5900 50  0000 C CNN
 F 1 "10n" V 4800 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4688 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 5750 50  0001 C CNN
 F 3 "~" H 4650 5900 50  0001 C CNN
 	1    4650 5900
 	-1   0    0    1   
@@ -552,7 +553,7 @@ AR Path="/5EB71C88" Ref="C?"  Part="1"
 AR Path="/5E9BB9DC/5EB71C88" Ref="C27"  Part="1" 
 F 0 "C27" V 4500 6550 50  0000 C CNN
 F 1 "10n" V 4800 6550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4688 6400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 6400 50  0001 C CNN
 F 3 "~" H 4650 6550 50  0001 C CNN
 	1    4650 6550
 	-1   0    0    1   
@@ -565,7 +566,7 @@ AR Path="/5EB71C92" Ref="C?"  Part="1"
 AR Path="/5E9BB9DC/5EB71C92" Ref="C33"  Part="1" 
 F 0 "C33" V 4500 7200 50  0000 C CNN
 F 1 "10n" V 4800 7200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4688 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 7050 50  0001 C CNN
 F 3 "~" H 4650 7200 50  0001 C CNN
 	1    4650 7200
 	-1   0    0    1   
