@@ -1,5 +1,5 @@
 # DeltaSDR
-HF Software Defined Radio Transceiver that includes ADC and DAC circuits. No soundcard is needed. Board communicates only trough one USB cable. Ideal for digital modes such a FT8 on Raspberry Pi.
+HF Software Defined Radio Transceiver that includes ADC and DAC circuits. No soundcard is needed. Board communicates only trough one USB cable. Very good software support trough Hamlib. Ideal for digital modes such a FT8 on Raspberry Pi.
 
 - 96kHz digital I/Q interface.
 - more then 80dB dynamic range.
