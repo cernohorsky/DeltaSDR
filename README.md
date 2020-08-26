@@ -2,8 +2,7 @@
 HF Software Defined Radio Transceiver that includes ADC and DAC circuits. No soundcard is needed. Board communicates only trough one USB cable. Ideal for digital modes such a FT8 on Raspberry Pi.
 
 - 96kHz digital I/Q interface.
-- >80dB dynamic range.
-- Support for Elecraft T1 automatic antenna tuner.
+- more then 80dB dynamic range.
 - DG8SAQ/PE0FKO/SoftRock control interface.
 - Open Source firmware (https://github.com/AE9RB/peaberry)
 - SWD/JTAG port.
