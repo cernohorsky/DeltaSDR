@@ -15,9 +15,9 @@ HF Software Defined Radio Transceiver that includes ADC and DAC circuits. No sou
 
 
 ToDo:
-- Change LDOs
-- Change SMA and USB footprint
+- Change SMA and USB footprints
 - Add PA
+- Implement band switching
 
 Based on: AE9RB Peaberry SDR and RS-HFIQ Transceiver
 
