@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:DeltaSDR-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -2189,10 +2190,10 @@ D+
 Text Label 3000 6775 0    50   ~ 0
 D-
 $Comp
-L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C?
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C75
 U 1 1 5F664756
 P 4950 5050
-F 0 "C?" H 5065 5096 50  0000 L CNN
+F 0 "C75" H 5065 5096 50  0000 L CNN
 F 1 "100n" H 5065 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 4900 50  0001 C CNN
 F 3 "~" H 4950 5050 50  0001 C CNN
@@ -2202,10 +2203,10 @@ $EndComp
 Wire Wire Line
 	4950 4850 4950 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0232
 U 1 1 5F664761
 P 4950 5250
-F 0 "#PWR?" H 4950 5000 50  0001 C CNN
+F 0 "#PWR0232" H 4950 5000 50  0001 C CNN
 F 1 "GND" H 4955 5077 50  0000 C CNN
 F 2 "" H 4950 5250 50  0001 C CNN
 F 3 "" H 4950 5250 50  0001 C CNN
@@ -2216,10 +2217,10 @@ Wire Wire Line
 	4950 5200 4950 5250
 Connection ~ 4950 5250
 $Comp
-L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C?
+L DeltaSDR-rescue:C-Device-DeltaSDR-rescue C76
 U 1 1 5F66477A
 P 5325 5025
-F 0 "C?" H 5440 5071 50  0000 L CNN
+F 0 "C76" H 5440 5071 50  0000 L CNN
 F 1 "10u" H 5440 4980 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5363 4875 50  0001 C CNN
 F 3 "~" H 5325 5025 50  0001 C CNN

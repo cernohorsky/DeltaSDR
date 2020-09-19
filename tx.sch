@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:DeltaSDR-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -913,17 +914,7 @@ F 3 "~" H 6125 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5725 3100 5575 3100
-Wire Wire Line
-	5575 3100 5575 3250
-Wire Wire Line
 	5575 3250 5475 3250
-Wire Wire Line
-	5725 3500 5575 3500
-Wire Wire Line
-	5575 3500 5575 3350
-Wire Wire Line
-	5575 3350 5475 3350
 Wire Wire Line
 	5725 3300 5675 3300
 $Comp
@@ -1152,4 +1143,14 @@ Wire Wire Line
 Connection ~ 4825 2000
 Wire Wire Line
 	4825 2000 5025 2000
+Wire Wire Line
+	5650 3350 5650 3100
+Wire Wire Line
+	5650 3100 5725 3100
+Wire Wire Line
+	5475 3350 5650 3350
+Wire Wire Line
+	5575 3250 5575 3500
+Wire Wire Line
+	5575 3500 5725 3500
 $EndSCHEMATC
